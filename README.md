@@ -1,16 +1,17 @@
 # KeyencePointCloudViewer
 
-Este proyecto permite leer y procesar archivos `.zon` extraídos de microscopios Keyence, convirtiendo los datos de las nubes de puntos en imágenes.
+This project allows reading and processing `.zon` files extracted from Keyence microscopes, converting point cloud data into images.
 
-## Instalación
+## Installation
 
-Clona este repositorio usando:
+Clone this repository using:
 git clone https://github.com/MigCaSan/KeyencePointCloudViewer.git
 
-Instala las dependencias necesarias con:
+Install the necessary dependencies with:
 pip install -r requirements.txt
 
-Para usar el script, simplemente ejecuta:
+To use the script, simply execute:
 python point_cloud_viewer.py archivo.zon
 
-Esto procesará el archivo especificado y generará una imagen a partir de la nube de puntos.
+This will process the specified file and generate an image from the point cloud.
+
