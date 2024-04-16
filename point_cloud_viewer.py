@@ -36,7 +36,7 @@ def extract_point_cloud_data(archivo_zon):
                             idx += nExtraBytes
 
     # Crea una imagen a partir de los datos de altura
-    img = np.zeros((1536, 2048))
+    img = np.zeros((len(z_data), len(z_data[0])))
     for idx, fila in enumerate(z_data):
         img[idx, :] = np.array(fila)
 
