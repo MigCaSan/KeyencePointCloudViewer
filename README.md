@@ -5,7 +5,7 @@ Este proyecto permite leer y procesar archivos `.zon` extraídos de microscopios
 ## Instalación
 
 Clona este repositorio usando:
-git clone https://github.com/tu-usuario/KeyencePointCloudViewer.git
+git clone https://github.com/MigCaSan/KeyencePointCloudViewer.git
 
 Instala las dependencias necesarias con:
 pip install -r requirements.txt
